@@ -1,16 +1,16 @@
 public class Test {
-    public static void main(String args[] ) {
-        double xer, ser;
-        int y;
+    public static void main(String[] args) {
+        double meter;
+        int counter, duim;
 
-        y = 0;
-        for(xer = 1; xer <= 100; xer++) {
-            ser = xer * 3.7854;
-            System.out.println(xer + "888" + ser + "888");
-            y++;
-            if(y == 10) {
+        counter = 0;
+        for(duim = 1; duim <= 100; duim++) {
+            meter = duim * 39.37;
+            System.out.println(duim + " дюймов равно " + meter + " метров ");
+            counter++;
+            if(counter == 10) {
                 System.out.println();
-                y = 0;
+                counter = 0;
             }
         }
     }
